@@ -1,1 +1,0 @@
-#include <bits/stdc++.h>#include <conio.h>#define size 500using namespace std;class Backend{public:	char Operator[size];	string identifier[size];	char punctuation[size];};
