@@ -1,12 +1,1 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-//
-
-
-/// MAKE SURE YOU DO NOT MAKE THE SAME NAME FUNCTION IN 2 DIFFERENT HEADER FILE IN THE SAME PROJECT
-void TheFunctionName(){
-
-	cout<< "This is Likhon"<<endl;
-}
-
+#include <bits/stdc++.h>using namespace std;///// MAKE SURE YOU DO NOT MAKE THE SAME NAME FUNCTION IN 2 DIFFERENT HEADER FILE IN THE SAME PROJECTbool compareExpression(char Operator[],string identifier[],char punctuation[]){	int OperatorCounter=0,identifierCounter=0,punctuationCounter=0;	/// First we'll get the size of those arrays	int Operator_Len = sizeof(Operator) / sizeof(Operator[0]);	int identifier_Len = sizeof(identifier) / sizeof(identifier[0]);	int punctuation_Len = sizeof(punctuation) / sizeof(punctuation[0]);	bool decision = false;	char defined_Operators[] = {'=','+','-','*','/','^','%'};	char defined_Punctuation[] = {',','\"','.','*','/',';','?'};/*	cout << endl<< endl<< endl;	cout << "Identifiers -> ";	for (int i = 0; i < ID_Flag; i++)	{		cout << identifier[i] << " ";	}	cout << endl;	cout << "Operators -> ";	for (int i = 0; i < OP_Flag; i++)	{		cout << Operator[i] << " ";	}	cout << endl;	cout << "Punctuations -> ";	for (int i = 0; i < Pn_Flag; i++)	{		cout << punctuation[i] << " ";	}	cout << endl;*/	for(int i=0;i<7;i++){		for(int j=0;j<Operator_Len;j++){			if(defined_Operators[i] == Operator[j]){				OperatorCounter++;			}		}	}	for(int i=0;i<7;i++){		for(int j=0;j<punctuation_Len;j++){			if(defined_Punctuation[i] == punctuation[j]){				punctuationCounter++;			}		}	}	if(OperatorCounter >= OP_Flag){		decision = true;		//cout<<decision;	}else{		decision = false;		//cout<<decision;	}	if(punctuationCounter >= Pn_Flag){		decision = true;		//cout<<decision;	}else{		decision = false;		//cout<<decision;	}	if(identifierCounter <= ID_Flag){		decision = true;		//cout<<decision;	}else{		decision = false;		//cout<<decision;	}	return decision;}

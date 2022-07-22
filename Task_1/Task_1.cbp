@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="arpita.h" />
 		<Unit filename="likhon.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sudipta.h" />
