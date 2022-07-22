@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1658335373 source:e:\yaarian\aiub\aiub\3rd year\semester 7\final term\compiler design\labtasks\compiler-workshop\task_1\main.cpp
+	<bits/stdc++.h>
+	<conio.h>
+	"sudipta.h"
+	"likhon.h"
+
+1658335210 e:\yaarian\aiub\aiub\3rd year\semester 7\final term\compiler design\labtasks\compiler-workshop\task_1\sudipta.h
+	<bits/stdc++.h>
+
+1658335395 e:\yaarian\aiub\aiub\3rd year\semester 7\final term\compiler design\labtasks\compiler-workshop\task_1\likhon.h
+	<bits/stdc++.h>
+
+1658513244 source:c:\users\user\desktop\compiler-workshop\task_1\main.cpp
+	<bits/stdc++.h>
+
+1658507691 c:\users\user\desktop\compiler-workshop\task_1\sudipta.h
+	<bits/stdc++.h>
+
+1658507691 c:\users\user\desktop\compiler-workshop\task_1\likhon.h
+	<bits/stdc++.h>
+
+1658508123 source:c:\users\user\desktop\compiler-workshop\task_1\backend.cpp
+	<bits/stdc++.h>
+
